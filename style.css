@@ -1,0 +1,119 @@
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Heading */
+h1 {
+    margin-top: 40px;
+    color: #1f2937;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+/* Form container */
+form, .form-container {
+    background-color: #ffffff;
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 320px;
+}
+
+/* Labels */
+label {
+    font-weight: 600;
+    color: #334155;
+}
+
+/* Inputs and select */
+input[type="date"],
+select {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.2s;
+}
+
+input[type="date"]:focus,
+select:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Button */
+button {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #3b82f6;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Result table container */
+#result {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 900px;
+    overflow-x: auto;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #3b82f6;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+tr:hover {
+    background-color: #e0f2fe;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .form-container, table {
+        width: 95%;
+    }
+}
