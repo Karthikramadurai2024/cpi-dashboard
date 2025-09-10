@@ -1,15 +1,14 @@
 [
     {
-        "name": "Karthik-Trial",
-        "url": "https://41a2517atrial-trial.integrationsuitetrial-apim.ap21.hana.ondemand.com/41a2517atrial/webpagetest",
+        "name": "TenantA",
+        "url": "https://tenantA.cpi.example.com/iflowEndpoint",
         "username": "userA",
         "password": "passA"
     },
     {
-        "name": "Karthik-Trial2",
+        "name": "TenantB",
         "url": "https://tenantB.cpi.example.com/iflowEndpoint",
         "username": "userB",
         "password": "passB"
     }
 ]
-
