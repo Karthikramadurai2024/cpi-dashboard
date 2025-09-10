@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CPI Message Log Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CPI Message Log Dashboard</h1>
+
+    <label for="tenant">Select Tenant:</label>
+    <select id="tenant"></select>
+
+    <label for="start">Start Date:</label>
+    <input type="date" id="start">
+
+    <label for="end">End Date:</label>
+    <input type="date" id="end">
+
+    <button id="fetchBtn">Fetch Logs</button>
+
+    <div id="result"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

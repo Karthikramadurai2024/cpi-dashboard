@@ -1,0 +1,14 @@
+[
+    {
+        "name": "TenantA",
+        "url": "https://tenantA.cpi.example.com/iflowEndpoint",
+        "username": "userA",
+        "password": "passA"
+    },
+    {
+        "name": "TenantB",
+        "url": "https://tenantB.cpi.example.com/iflowEndpoint",
+        "username": "userB",
+        "password": "passB"
+    }
+]
